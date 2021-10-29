@@ -1,0 +1,14 @@
+C:\Users\md048\source\repos\MoodProject\MoodPrgrm\obj\Debug\netcoreapp3.1\MoodPrgrm.csproj.AssemblyReference.cache
+C:\Users\md048\source\repos\MoodProject\MoodPrgrm\obj\Debug\netcoreapp3.1\MoodPrgrm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\md048\source\repos\MoodProject\MoodPrgrm\obj\Debug\netcoreapp3.1\MoodPrgrm.AssemblyInfoInputs.cache
+C:\Users\md048\source\repos\MoodProject\MoodPrgrm\obj\Debug\netcoreapp3.1\MoodPrgrm.AssemblyInfo.cs
+C:\Users\md048\source\repos\MoodProject\MoodPrgrm\obj\Debug\netcoreapp3.1\MoodPrgrm.csproj.CoreCompileInputs.cache
+C:\Users\md048\source\repos\MoodProject\MoodPrgrm\bin\Debug\netcoreapp3.1\MoodPrgrm.exe
+C:\Users\md048\source\repos\MoodProject\MoodPrgrm\bin\Debug\netcoreapp3.1\MoodPrgrm.deps.json
+C:\Users\md048\source\repos\MoodProject\MoodPrgrm\bin\Debug\netcoreapp3.1\MoodPrgrm.runtimeconfig.json
+C:\Users\md048\source\repos\MoodProject\MoodPrgrm\bin\Debug\netcoreapp3.1\MoodPrgrm.runtimeconfig.dev.json
+C:\Users\md048\source\repos\MoodProject\MoodPrgrm\bin\Debug\netcoreapp3.1\MoodPrgrm.dll
+C:\Users\md048\source\repos\MoodProject\MoodPrgrm\bin\Debug\netcoreapp3.1\MoodPrgrm.pdb
+C:\Users\md048\source\repos\MoodProject\MoodPrgrm\obj\Debug\netcoreapp3.1\MoodPrgrm.dll
+C:\Users\md048\source\repos\MoodProject\MoodPrgrm\obj\Debug\netcoreapp3.1\MoodPrgrm.pdb
+C:\Users\md048\source\repos\MoodProject\MoodPrgrm\obj\Debug\netcoreapp3.1\MoodPrgrm.genruntimeconfig.cache
