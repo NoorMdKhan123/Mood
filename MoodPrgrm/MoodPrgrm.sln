@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodPrgrm", "MoodPrgrm.csproj", "{8D27F403-ABCF-48FF-921E-BBBFE4784389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodPrgMSTest", "..\MoodPrgMSTest\MoodPrgMSTest.csproj", "{17FB6BFF-1783-4E70-8418-2262B5AD4D1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D27F403-ABCF-48FF-921E-BBBFE4784389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D27F403-ABCF-48FF-921E-BBBFE4784389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D27F403-ABCF-48FF-921E-BBBFE4784389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D27F403-ABCF-48FF-921E-BBBFE4784389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17FB6BFF-1783-4E70-8418-2262B5AD4D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17FB6BFF-1783-4E70-8418-2262B5AD4D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17FB6BFF-1783-4E70-8418-2262B5AD4D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17FB6BFF-1783-4E70-8418-2262B5AD4D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F6E97A3-5B40-4073-87C8-FF14C2106B32}
+	EndGlobalSection
+EndGlobal
