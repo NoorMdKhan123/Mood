@@ -10,8 +10,8 @@ namespace MoodPrgMSTest
         public void MoodAnalyserTest()
         {
             //Arrange
-            string except = "SAD";
-            string message = "I am in Sad mood";
+            string except = "HAPPY";
+            string message = "I am in Any mood";
             MoodAnalyser moodAnalyser = new MoodAnalyser(message);
 
             //Act
