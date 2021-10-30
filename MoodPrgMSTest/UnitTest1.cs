@@ -21,6 +21,23 @@ namespace MoodPrgMSTest
             }
 
         }
+        //TC 3.2 Given Empty Mood Should Throw InvalidMoodException indicating empty
+        //Given-When-Then
+        [TestMethod]
+        public void Empty_Mood_Should_Throw_MoodAnalysis_Exception_Indicating_EmptyMood()
+        {
+            try
+            {
+                string message = "";
+                MoodAnalyser moodAnalyser = new MoodAnalyser(message);
+                string mood = moodAnalyser.AnalyseMood();
+            }
+            catch (MoodAnalyserCustomException e)
+            {
+                Assert.AreEqual("Mood should not be empty", e.Message);
+            }
+
+        }
     }
 }
 
