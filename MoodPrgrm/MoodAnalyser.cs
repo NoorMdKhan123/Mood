@@ -4,30 +4,46 @@ using System.Text;
 
 namespace MoodPrgrm
 {
+
+
     public class MoodAnalyser
     {
-        string message;
+        public MoodAnalyser()
+        {
+
+        }
+        private string message;
         public MoodAnalyser(string message)
         {
             this.message = message;
         }
         public string AnalyseMood()
         {
-            
             try
             {
-                if (this.message.Contains("Sad"))
+                if (this.message.Equals(string.Empty))
                 {
-                    return "SAD";
+                    throw new MoodAnalyserCustomException
+                        (MoodAnalyserCustomException.ExceptionType.Empty_Message,
+                        "Mood should not be empty");
                 }
                 else
-
+                {
                     return "HAPPY";
+                }
+
             }
-            catch
+            catch (NullReferenceException)
             {
-                return "HAPPY";
+
+                throw new MoodAnalyserCustomException
+                    (MoodAnalyserCustomException.
+                    ExceptionType.NULL_MESSAGE, "Mood should not be null");
             }
+
         }
+
+
     }
+
 }

@@ -7,24 +7,26 @@ namespace MoodPrgMSTest
     public class UnitTest1
     {
         [TestMethod]
-        [DataRow(null)]
-        public void MoodAnalyserTest(string message)
+        public void Given_Null_Mood_Should_Throw_MoodAnalysis_Exception_Indicating_EmptyMood()
         {
-            //Arrange
-            string except = "HAPPY";
-
-            MoodAnalyser moodAnalyser = new MoodAnalyser(message);
-
-            //Act
-            var mood = moodAnalyser.AnalyseMood();
-
-            //Assert
-            Assert.AreEqual(except, mood);
-
-
-
+            try
+            {
+                string message = null;
+                MoodAnalyser moodAnalyser = new MoodAnalyser(message);
+                string mood = moodAnalyser.AnalyseMood();
+            }
+            catch (MoodAnalyserCustomException e)
+            {
+                Assert.AreEqual("Mood should not be null", e.Message);
+            }
 
         }
     }
-
 }
+
+
+
+
+
+
+    
