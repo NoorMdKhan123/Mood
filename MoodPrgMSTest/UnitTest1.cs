@@ -22,6 +22,23 @@ namespace MoodPrgMSTest
 
 
         }
+        [TestMethod]
+        public void MoodAnalyserTest1()
+        {
+            //Arrange
+            string except = "SAD";
+            string message = "I am in Sad mood";
+            MoodAnalyser moodAnalyser = new MoodAnalyser();
+            
+
+            //Act
+            var mood = moodAnalyser.AnalyseMood(message);
+
+            //Assert
+            Assert.AreEqual(except, mood);
+
+
+        }
     }
 
 }

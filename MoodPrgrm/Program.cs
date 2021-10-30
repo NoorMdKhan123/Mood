@@ -6,7 +6,7 @@ namespace MoodPrgrm
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Mood Analyser  june Program");
+            Console.WriteLine("Welcome to Mood Analyser Program");
         }
     }
 }
