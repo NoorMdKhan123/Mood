@@ -7,18 +7,27 @@ namespace MoodPrgrm
     public class MoodAnalyser
     {
         string message;
-        
-        public string AnalyseMood(string message)
+        public MoodAnalyser(string message)
         {
-            if (this.message.Contains("Sad"))
+            this.message = message;
+        }
+        public string AnalyseMood()
+        {
+            
+            try
             {
-                return "SAD";
+                if (this.message.Contains("Sad"))
+                {
+                    return "SAD";
+                }
+                else
+
+                    return "HAPPY";
             }
-            else
+            catch
             {
                 return "HAPPY";
             }
-
         }
     }
 }

@@ -7,11 +7,12 @@ namespace MoodPrgMSTest
     public class UnitTest1
     {
         [TestMethod]
-        public void MoodAnalyserTest()
+        [DataRow(null)]
+        public void MoodAnalyserTest(string message)
         {
             //Arrange
             string except = "HAPPY";
-            string message = "I am in Any mood";
+
             MoodAnalyser moodAnalyser = new MoodAnalyser(message);
 
             //Act
@@ -21,21 +22,6 @@ namespace MoodPrgMSTest
             Assert.AreEqual(except, mood);
 
 
-        }
-        [TestMethod]
-        public void MoodAnalyserTest1()
-        {
-            //Arrange
-            string except = "SAD";
-            string message = "I am in Sad mood";
-            MoodAnalyser moodAnalyser = new MoodAnalyser(message);
-            
-
-            //Act
-            var mood = moodAnalyser.AnalyseMood();
-
-            //Assert
-            Assert.AreEqual(except, mood);
 
 
         }
