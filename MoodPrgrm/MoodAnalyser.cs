@@ -18,8 +18,9 @@ namespace MoodPrgrm
                 return "SAD";
             }
             else
-
+            {
                 return "HAPPY";
+            }
 
         }
     }

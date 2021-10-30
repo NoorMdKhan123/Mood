@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H+CkOs9Hn+XSubsOc4eGWER1GZY6xUJPnvL+hhysf3ZvG6kR5tYe+n9VHJh30+rzb0x5lLy1F0eEkEl9x3leyA==",
+  "dgSpecHash": "Qz1cBBjswjrGkVCpQ8//J7Xt/9hjOTLp+u/EWRcne0SRvCKu28PFtHW12rLoOe6Tq1mhb6+SIUuiwisiHrZygg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\md048\\source\\repos\\MoodProject\\MoodPrgMSTest\\MoodPrgMSTest.csproj",
+  "projectFilePath": "C:\\Users\\md048\\source\\repos\\MoodProject\\Mood\\MoodPrgMSTest\\MoodPrgMSTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\md048\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\md048\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

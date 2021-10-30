@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\md048\\source\\repos\\MoodProject\\MoodPrgrm\\MoodPrgrm.csproj",
+      "projectUniqueName": "C:\\Users\\md048\\source\\repos\\MoodProject\\Mood\\MoodPrgrm\\MoodPrgrm.csproj",
       "projectName": "MoodPrgrm",
-      "projectPath": "C:\\Users\\md048\\source\\repos\\MoodProject\\MoodPrgrm\\MoodPrgrm.csproj",
+      "projectPath": "C:\\Users\\md048\\source\\repos\\MoodProject\\Mood\\MoodPrgrm\\MoodPrgrm.csproj",
       "packagesPath": "C:\\Users\\md048\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\md048\\source\\repos\\MoodProject\\MoodPrgrm\\obj\\",
+      "outputPath": "C:\\Users\\md048\\source\\repos\\MoodProject\\Mood\\MoodPrgrm\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\md048\\AppData\\Roaming\\NuGet\\NuGet.Config",

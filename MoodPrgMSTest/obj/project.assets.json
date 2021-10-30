@@ -6135,11 +6135,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\md048\\source\\repos\\MoodProject\\MoodPrgMSTest\\MoodPrgMSTest.csproj",
+      "projectUniqueName": "C:\\Users\\md048\\source\\repos\\MoodProject\\Mood\\MoodPrgMSTest\\MoodPrgMSTest.csproj",
       "projectName": "MoodPrgMSTest",
-      "projectPath": "C:\\Users\\md048\\source\\repos\\MoodProject\\MoodPrgMSTest\\MoodPrgMSTest.csproj",
+      "projectPath": "C:\\Users\\md048\\source\\repos\\MoodProject\\Mood\\MoodPrgMSTest\\MoodPrgMSTest.csproj",
       "packagesPath": "C:\\Users\\md048\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\md048\\source\\repos\\MoodProject\\MoodPrgMSTest\\obj\\",
+      "outputPath": "C:\\Users\\md048\\source\\repos\\MoodProject\\Mood\\MoodPrgMSTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\md048\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6156,8 +6156,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\md048\\source\\repos\\MoodProject\\MoodPrgrm\\MoodPrgrm.csproj": {
-              "projectPath": "C:\\Users\\md048\\source\\repos\\MoodProject\\MoodPrgrm\\MoodPrgrm.csproj"
+            "C:\\Users\\md048\\source\\repos\\MoodProject\\Mood\\MoodPrgrm\\MoodPrgrm.csproj": {
+              "projectPath": "C:\\Users\\md048\\source\\repos\\MoodProject\\Mood\\MoodPrgrm\\MoodPrgrm.csproj"
             }
           }
         }
