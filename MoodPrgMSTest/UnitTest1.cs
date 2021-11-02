@@ -38,18 +38,6 @@ namespace MoodPrgMSTest
             }
 
         }
-        //Using Reflection to create MoodAnalyser object with default constructor
-        
-        //4.1
-        [TestMethod]
-        public void GivenMoodAnalyserClassName_ShouldReturnMoodAnalyserObject()
-        {
-            string message = null;
-            object expected = new MoodAnalyser(message);
-            object obj = MoodAnalyserFactory.
-                CreateMoodAnalyse("MoodPrgrm.MoodAnalyser", "MoodAnalyser");
-            expected.Equals(obj);
-        }
     }
 }
 
