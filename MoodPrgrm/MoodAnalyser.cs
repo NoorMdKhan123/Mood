@@ -27,7 +27,12 @@ namespace MoodPrgrm
                         (MoodAnalyserCustomException.ExceptionType.Empty_Message,
                         "Mood should not be empty");
                 }
+                if(this.message.Contains("Sad"))
+                {
+                    return "SAD";
+                }
                 else
+
                 {
                     return "HAPPY";
                 }
@@ -42,8 +47,5 @@ namespace MoodPrgrm
             }
 
         }
-
-
     }
-
 }
